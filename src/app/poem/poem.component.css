@@ -1,0 +1,130 @@
+html {
+    overflow-x: hidden;
+    font-family: "Comfortaa", "Raleway", sans-serif;
+}
+
+.h5 {
+    font-weight: bolder !important;
+}
+
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.font-italic {
+    font-style: italic !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-primary {
+    color: #20c997 !important;
+}
+
+.btn-outline-black {
+    border: 2px solid #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.btn-outline-black:hover {
+    color: #fff;
+    background: #000;
+    border-color: #000;
+}
+
+.btn.btn-outline-white {
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn.btn-outline-white:hover {
+    color: black;
+    background: white;
+    border-color: white;
+}
+
+header {
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: transparent !important;
+}
+
+header .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none !important;
+    position: relative;
+}
+
+header .navbar .nav-link {
+    padding: 1.7rem 1.5rem !important;
+    outline: none !important;
+    font-size: 2vmin;
+    font-weight: 100px;
+    letter-spacing: 0.3rem;
+}
+
+.nav-item a {
+    color: black !important;
+}
+
+.nav-item a:hover {
+    color: grey !important;
+    text-decoration: none;
+}
+
+.poem-section {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #E8FEB6;
+}
+
+#poem-img {
+    margin-top: 2%;
+    height: 15vh;
+}
+
+#poem-text {
+    font-family: "Comfortaa", "Raleway", sans-serif;
+}
