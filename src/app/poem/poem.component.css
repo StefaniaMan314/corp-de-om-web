@@ -1,6 +1,5 @@
 html {
     overflow-x: hidden;
-    font-family: "Comfortaa", "Raleway", sans-serif;
 }
 
 .h5 {
@@ -84,47 +83,52 @@ header {
     left: 0;
     width: 100%;
     z-index: 5;
-    background: transparent !important;
+    background-color: #E2DBD3;
 }
 
 header .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
-    background: none !important;
-    position: relative;
+    background-color: #E2DBD3;
 }
 
 header .navbar .nav-link {
     padding: 1.7rem 1.5rem !important;
     outline: none !important;
-    font-size: 2vmin;
+    font-size: 2.5vmin;
     font-weight: 100px;
     letter-spacing: 0.3rem;
 }
 
+.navbar-brand {
+    padding: 2%;
+}
+
 .nav-item a {
-    color: black !important;
+    font-weight: 700!important;
+    color: white !important;
 }
 
 .nav-item a:hover {
-    color: grey !important;
+    color: #908786 !important;
     text-decoration: none;
 }
 
 .poem-section {
-    height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #E8FEB6;
+    height: 70vh;  
+    background-color: #F2EFEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#poem-img {
-    margin-top: 2%;
-    height: 15vh;
+.poem-image {
+    height: 25vh;
 }
 
-#poem-text {
-    font-family: "Comfortaa", "Raleway", sans-serif;
+.card {
+    text-align: justify;
+}
+  
+.card-link {
+    color: #ABC8AA;
 }
