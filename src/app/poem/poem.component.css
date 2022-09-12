@@ -1,128 +1,3 @@
-html {
-    overflow-x: hidden;
-}
-
-.h5 {
-    font-weight: bolder !important;
-}
-
-.text-lowercase {
-    text-transform: lowercase !important;
-}
-
-.text-uppercase {
-    text-transform: uppercase !important;
-}
-
-.text-capitalize {
-    text-transform: capitalize !important;
-}
-
-.font-weight-light {
-    font-weight: 300 !important;
-}
-
-.font-weight-normal {
-    font-weight: 400 !important;
-}
-
-.font-weight-bold {
-    font-weight: 700 !important;
-}
-
-.font-italic {
-    font-style: italic !important;
-}
-
-.text-white {
-    color: #fff !important;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.text-primary {
-    color: #20c997 !important;
-}
-
-.btn-outline-black {
-    border: 2px solid #000;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 0px;
-    padding: 10px 20px;
-    color: #000;
-}
-
-.btn-outline-black:hover {
-    color: #fff;
-    background: #000;
-    border-color: #000;
-}
-
-.btn-outline-light:hover {
-    color: #fff;
-    background: #ABC8AA;
-    border-color: #ABC8AA;
-}
-
-
-.btn.btn-outline-white {
-    border: 2px solid white;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 0px;
-    padding: 10px 20px;
-    color: white;
-}
-
-.btn.btn-outline-white:hover {
-    color: black;
-    background: white;
-    border-color: white;
-}
-
-header {
-    top: 0px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    background-color: #e2dbd3;
-}
-
-header .navbar {
-    background-color: #e2dbd3;
-    text-align: center;
-}
-
-header .navbar .nav-link {
-    padding: 1rem !important;
-    outline: none !important;
-    font-size: 1rem;
-    font-weight: bolder;
-    letter-spacing: 0.3rem;
-}
-
-.navbar-brand {
-    padding: 2%;
-}
-
-.nav-item a {
-    font-weight: 700!important;
-    color: white !important;
-}
-
-.nav-item a:hover {
-    color: #908786 !important;
-    text-decoration: none;
-}
-
 
 /* Small devices (mobile landscape and portrait) */
 @media screen and (max-width: 764px) { 
@@ -160,8 +35,16 @@ header .navbar .nav-link {
     gap: 60px;
 }
 
+.poem-text {
+    white-space: pre-wrap;
+}
+
 .poem-image {
     height: 25vh;
+}
+
+.poem-image, .poem-title, .poem-text {
+    margin-bottom: 60px;
 }
 
 .card {
@@ -188,9 +71,4 @@ header .navbar .nav-link {
 #gmap_canvas {
     width: 100%;
     height: 80vh;
-}
-
-.footer {
-    margin-top: 10%;
-    padding: 5% 0;
 }

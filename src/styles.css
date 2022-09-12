@@ -4,3 +4,86 @@ html, body {
     font-family: "Comfortaa", "Raleway", sans-serif;
     font-weight: 400;
 }
+
+.h5 {
+    font-weight: bolder !important;
+}
+
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.font-italic {
+    font-style: italic !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-primary {
+    color: #20c997 !important;
+}
+
+.btn-outline-black {
+    border: 2px solid #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.btn-outline-black:hover {
+    color: #fff;
+    background: #000;
+    border-color: #000;
+}
+
+.btn-outline-light:hover {
+    color: #fff;
+    background: #ABC8AA;
+    border-color: #ABC8AA;
+}
+
+
+.btn.btn-outline-white {
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn.btn-outline-white:hover {
+    color: black;
+    background: white;
+    border-color: white;
+}

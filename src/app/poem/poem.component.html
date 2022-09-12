@@ -1,65 +1,24 @@
 <div>
   <!-- HEADER -->
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-          <img src="assets/logo.png" width="80" height="80" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about">Despre proiect</a>
-            </li>
-            <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#map">Harta</a>
-            </li>
-            <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <app-header></app-header>
 
   <!-- POEM MAIN SECTION -->
   <div class="poem-section">
     <div class="container">
-      <!-- Poem image -->
-      <img class="poem-image" src="assets/inima.png" />
-      <!-- Poem title -->
-      <p class="h1 poem-title">bună seara</p>
-      <!-- Poem text -->
-      <p class="poem-text">
-        când ajungi acasă, descui ușa și dai buzna în mine
-        <br>
-        între coastele mele
-        <br>
-        te-apuci să te speli pe mâini
-        <br>
-        îmi mănânci din plămâni
-
-        <br><br>
-
-        te întinzi pe canapea
-        <br>
-        și dai mai tare muzica
-        <br>
-        rimtică din mine
-      </p>
+      <div>
+          <!-- Poem image -->
+          <img class="poem-image" src="assets/{{ poemImage }}" />
+          <!-- Poem title -->
+          <p class="h1 poem-title">{{ poemTitle }}</p>
+          <!-- Poem text -->
+          <p class="poem-text">{{ poemText }}</p>
+      </div>
     </div>
   </div>
   <div style="height: 15vh; background-color: #E2DBD3"></div>
 </div>
 
+<!-- ABOUT SECTION -->
 <div class="about-container" style="background: linear-gradient(rgba(255,255,255, .5), rgba(255,255,255, .2)), url('assets/about_cover.jpg');">
   <div id="about" class="container">
     <div class="row">
@@ -102,6 +61,8 @@
     </div>
   </div>
 </div>
+
+<!-- MAP SECTION -->
 <div id="map" class="container" style="padding: 150px 10px;">
   <!-- Poems map -->
   <p class="h5 text-uppercase">Harta</p>
@@ -122,34 +83,5 @@
     </div>
 </div>
 
-<!-- Footer -->
-<footer id="contact" class="bg-light" style="text-align: justify;">
-  <div class="footer" style="background-color: #E2DBD3; color: white;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <p>
-            <strong>maram.hmaidan@gmail.com</strong>
-          </p>
-          <section class="mb-4">
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/maram.hmaidan" target="_blank" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/maram-hmaidan-7906701b5/" target="_blank" role="button"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </section>
-        </div>
-        <div class="col-lg-6">
-          <p>
-            ©2022 All rights reserved.
-          </p>
-          <p>
-            Developed with &#9829; by Stefania Man.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<!-- FOOTER -->
+<app-footer></app-footer>
