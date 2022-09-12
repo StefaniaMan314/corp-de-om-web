@@ -1,0 +1,74 @@
+{
+    "poems": [
+        {
+            "route": "natura-noastra-de-nestiutori",
+            "image": "natura.png",
+            "chapter": "Tâmplele existenței",
+            "title": "natura noastră de neștiutori",
+            "text": "undeva sub pielea ta \n undeva sub vene și sub oase \n sau poate deasupra lor \n – tu zâmbești din spirit \n\n tu, ființă lipsită de scop și ruptă de natură \n te cauți în palmă să-ți citești istoria"
+        },
+        {    
+            "route": "hai-sa-ne-omenim",
+            "image": "portocala.png",
+            "chapter": "Gâtul descoperirii",
+            "title": "hai să ne omenim",
+            "text": "vrei o felie rotundă de portocală roșie? \n – știu că nu e sezonul la tine, și m-am gândit că ți-ar fi poftă dacă nu ai una lângă tine \n\n vrei un nor de ploaie? \n – mai știu că e cam secetă acolo și pământul ăla crăpat cred că-ți usucă buzele numai când te uiți la el \n\n vrei să nu mai vrei tot ce nu ai? \n – doar că ești om, și omul vrea totul, chiar dacă nu-i mai trebuie nimic"
+        },
+        {
+            "route": "eu-pe-mine-ma",
+            "image": "pereche.png",
+            "chapter": "Coastele fricii",
+            "title": "eu, pe mine, mă",
+            "text": "unde ești \n pe unde umbli \n spre ce te-ndrepți \n de unde vii \n când ai crescut \n de ce te temi \n cum știi zâmbi"
+        },
+        {
+            "route": "gleznele-mele",
+            "image": "calcai.png",
+            "chapter": "Coastele fricii",
+            "title": "gleznele mele",
+            "text": "gleznele mele sunt foarte firave \n se strâmbă una-două \n când alerg de mine \n și atunci când plouă \n parcă și scârțâie de la umiditate \n\n câteodată și genunchiul \n vrea să o ia pe arătură \n și când alerg spre tine \n el face brusc o-ntorsătură \n\n cu articulațiile astea nu-i de glumă \n zeci de medici m-au tot cercetat \n și în final tot eu m-am diagnosticat \n\n sufăr de-o boală articulară rară: \n când te articulez \n începe să mă doară"            
+        },
+        {
+            "route": "dragoste-de-caisa",
+            "image": "frunza.png",
+            "chapter": "Bustul iubirii",
+            "title": "dragoste de caisă",
+            "text": "iubește un munte și o caisă \n o praștie făcută de-un copil și o bătrână care îți dă fiori prin bătrânețea ei \n iubește ce-i viu și sălbatic, o planșă de desen care nu îți mai place \n iubește omul pe care l-ai iubit atunci și acum nu, iubește-l iar pentru tot ce ți-a arătat \n lasă-te iubit de aer și de iarbă și gustă din cer câte o bucată de nor în fiecare dimineață"            
+        },
+        {
+            "route": "despre-tutun",
+            "image": "tutun.png",
+            "chapter": "Bustul iubirii",
+            "title": "despre tutun",
+            "text": "noi suntem ființe care se caută \ncăutăm nori ca să avem din ce ieși \npisăm frunze de tutun și inhalăm \nfumul pe care îl lasă când le ardem \n\nîmi vreau plămânii plini de ceață \nsă știu ce bine e când respir aer curat \n\nvreau să îmi fumez condiția \ncu tine lângă - dar nu prea aproape \ndacă stai prea aproape te văd clar \nși fumul dintre noi dispare \n\nte iubesc când ești la o plamă de ceață distanță \nnu prea departe, dacă ești prea departe \nne uităm"
+        },
+        {
+            "route": "buna-seara",
+            "image": "inima.png",
+            "chapter": "Dinții disperării",
+            "title": "bună seara ",
+            "text": "când ajungi acasă, descui ușa \nși dai buzna în mine \nîntre coastele mele \nte-apuci să te speli pe mâini \nîmi mănânci din plămâni \nte întinzi pe canapea \nși dai mai tare muzica \nrimtică din mine"
+        },
+        {
+            "route": "pierdut-inima",
+            "image": "pierdut.png",
+            "chapter": "Dinții disperării",
+            "title": "pierdut inimă",
+            "text": "roșie, tânără, cu bătăi vii \n\nmi-a ieșit din piept și \nnu am mai simțit de atunci \n\nnu răspunde la niciun nume \ndar o recunoști de la o poștă \nîi place să se ascundă \n\nîn orice caz \ndacă dai peste inima mea \nanunță-mă și vin s-o iau \n\noricât ar fugi ea de realitate"
+        },
+        {
+            "route": "amprente",
+            "image": "amprente.png",
+            "chapter": "Degetele dorului",
+            "title": "amprente",
+            "text": "cu fiecare secundă în care ții închise pleoapele, \nte gâdil cu un deget în plus \nte gâdil pe tot corpul \nîți las hărți de atingere pe piele \n\nte-a atins dorul"            
+        },
+        {
+            "route": "e-asa-simplu",
+            "image": "simplu.png",
+            "chapter": "Degetele dorului",
+            "title": "e așa simplu",
+            "text": "pentru căței să dea din coadă \npentru apă să reflecte cerul \npentru firele de iarbă să fie verzi \npentru furnici să fie strivite de tălpile noastre ignorante \nla fel de simplu cum e pentru noi \n\nsă fugim și să ne chemăm înapoi"
+        }
+    ]
+}
