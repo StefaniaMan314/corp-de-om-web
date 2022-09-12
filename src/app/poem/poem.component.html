@@ -1,44 +1,42 @@
 <div>
   <!-- HEADER -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
-        <img src="assets/logo.png" width="30" height="30" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">Despre proiect</a>
-          </li>
-          <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#map">Harta</a>
-          </li>
-          <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" width="80" height="80" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">Despre proiect</a>
+            </li>
+            <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Harta</a>
+            </li>
+            <li class="nav-item"><span class="nav-link" style="color: white;">&#x2022;</span></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <!-- POEM MAIN SECTION -->
   <div class="poem-section">
-    <div class="poem-content">
+    <div class="container">
       <!-- Poem image -->
-      <div style="float: right;">
-        <img class="poem-image" src="assets/inima.png" />
-      </div>
-      <br><br>
+      <img class="poem-image" src="assets/inima.png" />
       <!-- Poem title -->
       <p class="h1 poem-title">bună seara</p>
-      <br><br>
       <!-- Poem text -->
       <p class="poem-text">
         când ajungi acasă, descui ușa și dai buzna în mine
@@ -65,7 +63,7 @@
 <div class="about-container" style="background: linear-gradient(rgba(255,255,255, .5), rgba(255,255,255, .2)), url('assets/about_cover.jpg');">
   <div id="about" class="container">
     <div class="row">
-      <div class="col-lg-6" style="margin: 15vh 0;">
+      <div class="col-lg-6" style="padding: 150px 10px;">
         <p class="h5 text-uppercase">Proiectul</p>
         <div class="divider"></div>
         <div class="card">
@@ -73,27 +71,26 @@
           <div class="card-body">
             <h5 class="card-title">Corp de om</h5>
             <p>
-              Lorem ipsum dolor sit amet. Ut sunt saepe qui iusto saepe qui sequi architecto et voluptatibus odio et
-              suscipit ipsum et libero fugiat et voluptatibus neque. Ea atque officiis ad deleniti asperiores qui
-              temporibus consequatur est commodi magnam ad dolore placeat ut voluptas harum qui tempora suscipit. Vel
-              libero perspiciatis est autem odit non error quae non eius omnis vel quae dolorem et nemo natus.
+              Volumul de poezie „Corp de om” e despre noi, oamenii. Despre corpul nostru viu, plin de emoții haotice, delimitate de granițele propriei ființe.
+            </p>
+            <p>
+              Poemele sunt emoții traduse în corp, fiecare cu un corespondent fizic regăsit în titlurile capitolelor: Tâmplele existenței, Gâtul descoperirii, Coastele fricii, Bustul iubirii, Dinții disperării și Degetele dorului
             </p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6" style="margin: 15vh 0;">
+      <div class="col-lg-6" style="padding: 150px 10px;">
         <p class="h5 text-uppercase">Autoarea</p>
         <div class="divider"></div>
         <div class="card">
           <img class="card-img-top" src="assets/maram.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Maram Hmaidan</h5>
-            <p class="card-text">Editor | Designer | Scriitoare</p>
             <p>
-              Lorem ipsum dolor sit amet. Ut sunt saepe qui iusto saepe qui sequi architecto et voluptatibus odio et
-              suscipit ipsum et libero fugiat et voluptatibus neque. Ea atque officiis ad deleniti asperiores qui
-              temporibus consequatur est commodi magnam ad dolore placeat ut voluptas harum qui tempora suscipit. Vel
-              libero perspiciatis est autem odit non error quae non eius omnis vel quae dolorem et nemo natus.
+              Poezia e peste tot, trebuie doar să îți deschizi ochii și să o găsești. Pe pământ și sub soare, în frunze, printre firele de iarbă, în plină stradă.
+            </p>
+            <p>
+              Maram scrie poeme de când se știe și acum a pus cap la cap primul ei volum, pentru care a pregătit un start mai neconvențional. Citește și descoperă ce îți face inima să tresară.
             </p>
           </div>
           <div class="card-body">
@@ -105,16 +102,15 @@
     </div>
   </div>
 </div>
-<div id="map" class="container" style="margin-top: 3%;">
+<div id="map" class="container" style="padding: 150px 10px;">
   <!-- Poems map -->
   <p class="h5 text-uppercase">Harta</p>
   <div class="divider"></div>
   <p>
-    O mică parte din volumul de debut &lt;Corp de om&gt; al poetei Maram Hmaidan.
-      <br>
-      Diverse locații din centrul orașului ascund câte un cod QR asemănător, care te duce către alte poeme.
-      <br>
-      Harta îți arată unde le poți întâlni.
+    Diverse locații din centrul orașului ascund câte un cod QR asemănător, care te duce către alte poeme.
+  </p>
+  <p>
+    Harta îți arată unde le poți întâlni. Descoperă o mică parte din volumul de debut &lt;Corp de om&gt; al poetei Maram Hmaidan.
   </p>
   <br>
   <div class="mapouter">

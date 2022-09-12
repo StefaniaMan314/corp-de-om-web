@@ -89,6 +89,9 @@ header {
     top: 0px;
     left: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 5;
     background-color: #e2dbd3;
 }
@@ -120,13 +123,41 @@ header .navbar .nav-link {
     text-decoration: none;
 }
 
+
+/* Small devices (mobile landscape and portrait) */
+@media screen and (max-width: 764px) { 
+    .poem-section {
+        padding: 0 24px;;
+    }
+ }
+
+/* Medium devices (tablets and small desktops) */
+@media screen and (min-width: 764px) and (max-width: 1200px) { 
+    .poem-section {
+        padding: 0 30px;
+    }
+ }
+
+/* Large devices (desktops) */
+@media screen and (min-width: 1200px) { 
+    .poem-section {
+        padding: 0 auto;
+    }
+}
+
 .poem-section {
     width: 100%;
-    height: 100vh;  
+    height: 70vh;  
     background-color: #F2EFEB;
+}
+
+.poem-section .container {
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 .poem-image {
@@ -139,9 +170,6 @@ header .navbar .nav-link {
   
 .card-link {
     color: #ABC8AA;
-}
-
-.card-img-top {
 }
 
 .divider {
