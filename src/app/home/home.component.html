@@ -1,70 +1,84 @@
 <app-header></app-header>
-<div class="container-fluid main-content">
-    <div class="poems-list">
-        <div class="container">
-            <ul class="list-unstyled">
-                <li *ngFor="let poem of poems;" >
-                    <a routerLink="poems/{{poem.route}}" class="list-group-item list-group-item-action">{{ poem.title }}</a>
-                    <span class="poem-sep">&#x2022;</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="about-container" style="background: linear-gradient(rgba(255,255,255, .5), rgba(255,255,255, .2)), url('assets/about_cover.jpg');">
-        <div id="about" class="container">
-          <div class="row">
-            <div class="col-lg-6" style="padding: 150px 10px;">
-              <p class="h5 text-uppercase">Proiectul</p>
-              <div class="divider"></div>
-              <div class="card">
-                <img class="card-img-top" src="assets/proiect.png" alt="Project">
-                <div class="card-body">
-                  <h5 class="card-title">Corp de om</h5>
-                  <p>
-                    Volumul de poezie „Corp de om” e despre noi, oamenii. Despre corpul nostru viu, plin de emoții haotice, delimitate de granițele propriei ființe.
-                  </p>
-                  <p>
-                    Poemele sunt emoții traduse în corp, fiecare cu un corespondent fizic regăsit în titlurile capitolelor: Tâmplele existenței, Gâtul descoperirii, Coastele fricii, Bustul iubirii, Dinții disperării și Degetele dorului
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6" style="padding: 150px 10px;">
-              <p class="h5 text-uppercase">Autoarea</p>
-              <div class="divider"></div>
-              <div class="card">
-                <img class="card-img-top" src="assets/maram.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Maram Hmaidan</h5>
-                  <p>
-                    Poezia e peste tot, trebuie doar să îți deschizi ochii și să o găsești. Pe pământ și sub soare, în frunze, printre firele de iarbă, în plină stradă.
-                  </p>
-                  <p>
-                    Maram scrie poeme de când se știe și acum a pus cap la cap primul ei volum, pentru care a pregătit un start mai neconvențional. Citește și descoperă ce îți face inima să tresară.
-                  </p>
-                </div>
-                <div class="card-body">
-                  <a href="https://www.linkedin.com/in/maram-hmaidan-7906701b5/" class="card-link"
-                    target="_blank">maram-hmaidan</a>
-                </div>
-              </div>
-            </div>
+<div class="container-fluid main-content" style="background: linear-gradient(rgba(255,255,255, .3), rgba(255,255,255, 0)), url('assets/home.jpg');">
+  <div class="logo-wrapper">
+    <img class="logo-image rotate" src="../../assets/logo.png"/>
+  </div>
+</div>
+
+<div id="poems" style="padding: 100px 10px;">
+  <div class="container">
+    <p class="h5 text-uppercase">Poezii</p>
+    <div class="divider"></div>
+    <ul class="list-unstyled">
+        <li *ngFor="let poem of poems;" class="poem-item">
+            <a routerLink="{{poem.route}}" class="list-group-item list-group-item-action">
+              <span class="poem-sep">&#x2022;</span>
+              {{ poem.title }}
+              <span class="poem-sep">&#x2022;</span>
+            </a>
+        </li>
+    </ul>
+  </div>
+</div>
+
+<div class="about-container" style="background: linear-gradient(rgba(255,255,255, .5), rgba(255,255,255, .2)), url('assets/about_cover.jpg');">
+  <div id="about" class="container">
+    <div class="row">
+      <div class="col-lg-6" style="padding: 150px 10px;">
+        <p class="h5 text-uppercase">Proiectul</p>
+        <div class="divider"></div>
+        <div class="card">
+          <img class="card-img-top" src="assets/proiect.png" alt="Project">
+          <div class="card-body">
+            <h5 class="card-title">Corp de om</h5>
+            <p>
+              Volumul de poezie „Corp de om” e despre noi, oamenii. Despre corpul nostru viu, plin de emoții haotice, delimitate de granițele propriei ființe.
+            </p>
+            <p>
+              Poemele sunt emoții traduse în corp, fiecare cu un corespondent fizic regăsit în titlurile capitolelor: Tâmplele existenței, Gâtul descoperirii, Coastele fricii, Bustul iubirii, Dinții disperării și Degetele dorului
+            </p>
           </div>
         </div>
       </div>
-
-    <div id="map" class="container">
-        <p class="h5 text-uppercase">Harta</p>
+      <div class="col-lg-6" style="padding: 150px 10px;">
+        <p class="h5 text-uppercase">Autoarea</p>
         <div class="divider"></div>
-        
-        <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe id="gmap_canvas"
-                    src="https://www.google.com/maps/d/u/0/embed?mid=12KK9j1nLbzXRqfn01V-zCYvx9FwYSCH6&z=15" frameborder="0"
-                    scrolling="yes" marginheight="10" marginwidth="10"></iframe>
-            </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/maram.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Maram Hmaidan</h5>
+            <p>
+              Poezia e peste tot, trebuie doar să îți deschizi ochii și să o găsești. Pe pământ și sub soare, în frunze, printre firele de iarbă, în plină stradă.
+            </p>
+            <p>
+              Maram scrie poeme de când se știe și acum a pus cap la cap primul ei volum, pentru care a pregătit un start mai neconvențional. Citește și descoperă ce îți face inima să tresară.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/maram-hmaidan-7906701b5/" class="card-link"
+              target="_blank">maram-hmaidan</a>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
+<div id="map" class="container">
+  <p class="h5 text-uppercase">Harta</p>
+  <div class="divider"></div>
+  <p>
+    Diverse locații din centrul orașului ascund câte un cod QR asemănător, care te duce către alte poeme.
+  </p>
+  <p>
+    Harta îți arată unde le poți întâlni.
+  </p>
+  <div class="mapouter">
+      <div class="gmap_canvas">
+          <iframe id="gmap_canvas"
+              src="https://www.google.com/maps/d/u/0/embed?mid=12KK9j1nLbzXRqfn01V-zCYvx9FwYSCH6&z=15" frameborder="0"
+              scrolling="yes" marginheight="10" marginwidth="10"></iframe>
+      </div>
+  </div>
 </div>
 <app-footer></app-footer>

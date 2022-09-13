@@ -1,20 +1,31 @@
 .main-content {
     width: 100%;
-    background-color: #F2EFEB;
+    height: 100vh;
 }
 
-.poems-list {
-    width: 100%;
-    height: 100vh;  
-}
-
-.poems-list .container {
+.logo-wrapper {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+}
+
+.logo-image {
+    width: 600px;
+    position: absolute;
+}
+
+@media screen and (max-width: 764px) { 
+    .logo-image {
+        width: 400px;
+        padding: 30px;
+    }
+}
+
+.logo-image:hover {
+    scale: 1.2;
 }
 
 #gmap_canvas {
@@ -26,7 +37,6 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: #908786;
-    text-align: center;
 }
 
 .list-unstyled a:hover,
@@ -60,5 +70,13 @@
 }
 
 #map {
-    padding-top: 150px;
+    padding: 150px 10px;
+}
+
+.list-group-item {
+    font-size: 2rem;
+}
+
+.poem-item {
+    padding-top: 30px;
 }

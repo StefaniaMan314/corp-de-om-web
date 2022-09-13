@@ -2,49 +2,54 @@
 /* Small devices (mobile landscape and portrait) */
 @media screen and (max-width: 764px) { 
     .poem-section {
-        padding: 0 24px;;
+        padding: 100px 24px;;
     }
  }
 
 /* Medium devices (tablets and small desktops) */
 @media screen and (min-width: 764px) and (max-width: 1200px) { 
     .poem-section {
-        padding: 0 30px;
+        padding: 100px 30px;
     }
  }
 
 /* Large devices (desktops) */
 @media screen and (min-width: 1200px) { 
     .poem-section {
-        padding: 0 auto;
+        padding: 100px auto;
     }
 }
 
 .poem-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
-    height: 100vh;  
+    height: 100%;  
     background-color: #F2EFEB;
 }
 
 .poem-section .container {
-    height: 100%;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .poem-text {
     white-space: pre-wrap;
+    text-align: left;
 }
 
 .poem-image {
-    height: 25vh;
+    height: 400px;
 }
 
-.poem-image, .poem-title, .poem-text {
-    margin-bottom: 60px;
+.poem-image:hover {
+    animation: vibrate 1s;
+    animation-iteration-count: infinite;
 }
 
 .card {
