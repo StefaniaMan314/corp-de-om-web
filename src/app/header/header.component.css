@@ -28,9 +28,8 @@ header .navbar {
 header .navbar .nav-link {
     padding: 1rem !important;
     outline: none !important;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    letter-spacing: 0.3rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
 }
 
 .navbar-brand {
@@ -39,7 +38,7 @@ header .navbar .nav-link {
 
 .nav-item a {
     font-weight: 400!important;
-    color: #525559 !important;
+    color: black !important;
 }
 
 .nav-item a:hover {

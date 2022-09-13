@@ -1,0 +1,12 @@
+.about-container {
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.card {
+    text-align: justify;
+}
+  
+.card-link {
+    color: #ABC8AA;
+}
