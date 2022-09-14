@@ -65,7 +65,8 @@ html, body {
     border-color: #000;
 }
 
-.btn-outline-light:hover {
+.btn-outline-light:hover,
+.btn-outline-light:focus {
     color: #B7A9A6;
     background: white;
     border-color: white;
@@ -157,7 +158,7 @@ to {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 20s linear infinite;
+    animation: marquee 25s linear infinite;
   }
   
   .marquee p {
@@ -172,3 +173,36 @@ to {
       transform: translate3d(-50%, 0, 0);
     }
   }
+
+  .typing-wrapper {
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing {
+    width: 100%;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #ABC8AA;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+/* Small devices (mobile landscape and portrait) */
+@media screen and (max-width: 764px) { 
+    .typing {
+        overflow: scroll;
+    }
+ }

@@ -32,6 +32,7 @@
 
 #poems {
     background-color: #F2EFEB;
+    padding-top: 30px;
 }
 
 .poem-items a {
@@ -40,8 +41,8 @@
 
 .poem-items .poem-title {
     color: #525559;   
-    font-size: 1.5rem;
-    letter-spacing: .25rem;
+    font-size: 1rem;
+    letter-spacing: .15rem;
     padding: 20px;
 }
 
@@ -51,6 +52,6 @@
 }
 
 .poem-sep {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ABC8AA;
 }
