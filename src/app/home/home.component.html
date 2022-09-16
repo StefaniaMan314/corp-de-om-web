@@ -11,11 +11,11 @@
     <p class="h5 text-uppercase">Poezii</p>
     <div class="divider"></div>
     <div class="poem-items marquee">
-        <a *ngFor="let poem of poems;" routerLink="{{poem.route}}">
+        <a *ngFor="let poem of poems;" routerLink="poezii/{{poem.route}}">
           <span class="poem-title">{{ poem.title }}</span>
           <span class="poem-sep">&#x2022;</span>
         </a>
-        <a *ngFor="let poem of poems;" routerLink="{{poem.route}}">
+        <a *ngFor="let poem of poems;" routerLink="poezii/{{poem.route}}">
           <span class="poem-title">{{ poem.title }}</span>
           <span class="poem-sep">&#x2022;</span>
         </a>

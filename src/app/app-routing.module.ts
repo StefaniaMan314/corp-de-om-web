@@ -5,7 +5,7 @@ import { PoemComponent } from './poem/poem.component';
 import poems from '../assets/poems.json';
 
 const poemsRoutes: Routes = poems.poems.map( poem => { 
-  return { path: `${poem.route}`, component: PoemComponent, data: {poemTitle: poem.title, poemText: poem.text, poemImage: poem.image}}}
+  return { path: `poezii/${poem.route}`, component: PoemComponent, data: {poemTitle: poem.title, poemText: poem.text, poemImage: poem.image}}}
 );
 
 const routes: Routes = [
