@@ -1,7 +1,7 @@
 .footer {
-    padding: 30px 0;
-    background-color: #B7A9A6;
-    color: white;
+    padding: 60px 0;
+    background-color: white;
+    color: #525559;
 }
 
 @media screen and (max-width: 990px) { 

@@ -65,6 +65,22 @@ html, body {
     border-color: #000;
 }
 
+.btn-outline-dark {
+  border: 1px solid #525559;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #525559;
+}
+
+.btn-outline-dark:hover {
+  color: #EEEFF1;
+  background: #525559;
+  border-color: #525559;
+}
+
 .btn-outline-light:hover,
 .btn-outline-light:focus {
     color: #B7A9A6;
